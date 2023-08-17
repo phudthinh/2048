@@ -6,20 +6,18 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  flutter_launcher_icons: ^0.13.1
   cupertino_icons: ^1.0.2
   
   firebase_core: ^2.15.0
   firebase_auth: ^4.7.2
   google_sign_in: ^6.1.4
   cloud_firestore: ^4.8.4
-
   audioplayers: ^4.0.0
 
 dev_dependencies:
@@ -27,20 +25,22 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
 
 flutter:
+
   uses-material-design: true
 
   assets:
-   - assets/images/logo.png
-   - assets/images/golden_cup.png
-   - assets/images/google.png
+    - assets/images/logo.png
+    - assets/images/golden_cup.png
+    - assets/images/google.png
 
-   - assets/music/button_01.ogg
-   - assets/music/button_02.ogg
-   - assets/music/game_over.ogg
-   - assets/music/move.ogg
-   - assets/music/loop_music_background.ogg
+    - assets/music/button_01.ogg
+    - assets/music/button_02.ogg
+    - assets/music/game_over.ogg
+    - assets/music/move.ogg
+    - assets/music/loop_music_background.ogg
 
   fonts:
     - family: Nunito
